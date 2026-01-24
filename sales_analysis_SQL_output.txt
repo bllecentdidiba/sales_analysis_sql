@@ -1,0 +1,194 @@
+=== DESCRIPTIVE STATISTICS ===
+
+1. REVENUE OVERVIEW:
+  transaction_count customer_count product_count total_units total_revenue avg_price
+1             23204           4738          3768     5320242      60280024     12.66
+  avg_quantity
+1         9.92
+
+2. TEMPORAL ANALYSIS:
+   year month transactions monthly_revenue avg_transaction_value
+1  2018    12         1852         4234147                100.59
+2  2019    01         1327         3649506                104.85
+3  2019    02         1287         3299538                120.38
+4  2019    03         1722         4353309                120.06
+5  2019    04         1455         3416109                115.93
+6  2019    05         1938         4530850                123.87
+7  2019    06         1826         4410422                121.03
+8  2019    07         1687         4518348                115.73
+9  2019    08         1581         4614244                132.08
+10 2019    09         2117         6542706                131.47
+11 2019    10         2312         6971408                115.91
+12 2019    11         3146         7745258                 92.15
+13 2019    12          954         1994179                 78.63
+
+3. GEOGRAPHICAL DISTRIBUTION:
+          Country customers transactions    revenue units_sold
+1  United Kingdom      4324        20954 49994030.2    4409751
+2     Netherlands         9           97  2147811.4     200510
+3            EIRE        13          332  1660645.1     142549
+4         Germany        92          587  1350265.4     118630
+5          France        87          463  1316881.0     117010
+6       Australia         9           73   988756.3      85199
+7          Sweden         7           41   396042.6      35404
+8     Switzerland        21           73   358423.6      30496
+9           Japan         8           26   283293.5      25258
+10        Belgium        22          114   271347.0      23665
+
+=== CUSTOMER ANALYSIS ===
+
+4.1 CUSTOMER SPENDING SEGMENTS:
+    customer_segment customer_count segment_revenue avg_spend_per_customer revenue_percentage
+1         VIP (>10k)           1382     48768260.45               35288.18              80.90
+2   Premium (5k-10k)            898      6437637.14                7168.86              10.68
+3     Regular(1k-5k)           1806      4782526.40                2648.13               7.93
+4 Occasional(100-1k)            517       317597.48                 614.31               0.53
+5  Infrequent (<100)            136       -25997.21                -191.16              -0.04
+
+4.2 TOP 20 CUSTOMERS:
+   CustomerNo transaction_count total_items total_spent avg_transaction_value first_purchase
+1       14646                74      197132   2108960.0               1020.79             NA
+2       18102                60       64124    897137.4               2081.53             NA
+3       12415                24       77242    895267.2               1153.69             NA
+4       17450                49       69041    876816.0               2578.87             NA
+5       14911               241       77059    873037.9                150.52             NA
+6       14156                64       56986    683869.3                487.09             NA
+7       14298                45       58021    634174.0                386.69             NA
+8       13694                58       62356    630949.6                784.76             NA
+9       17511                45       63014    627685.4                584.44             NA
+10      16684                30       49091    518976.8               1866.82             NA
+11      16446                 3           2    501382.5             125345.63             NA
+12      15311               118       37650    386157.6                156.72             NA
+13      16422                60       33584    379430.6               1003.78             NA
+14      17404                16       32320    360096.5               1818.67             NA
+15      13089               119       30827    350506.0                185.65             NA
+16      16333                22       32184    349966.2               7777.03             NA
+17      16029                66       32203    343243.7               1300.17             NA
+18      15061                54       28638    330796.0                808.79             NA
+19      17949                49       27572    313941.0               4130.80             NA
+20      17381                30       25646    281908.7               2562.81             NA
+   last_purchase
+1             NA
+2             NA
+3             NA
+4             NA
+5             NA
+6             NA
+7             NA
+8             NA
+9             NA
+10            NA
+11            NA
+12            NA
+13            NA
+14            NA
+15            NA
+16            NA
+17            NA
+18            NA
+19            NA
+20            NA
+
+=== PRODUCT ANALYSIS ===
+
+5.1 TOP 20 PRODUCTS BY REVENUE:
+   ProductNo                       product_name transaction_count total_units total_revenue
+1      22197                     Popcorn Holder              1442       56450      583286.5
+2      84077  World War 2 Gliders Asstd Designs               540       53847      557170.4
+3      23843          Paper Craft Little Birdie                 2           0      501359.0
+4     85123A Cream Hanging Heart T-Light Holder              2311       35378      451401.7
+5      84879      Assorted Colour Bird Ornament              1467       36445      420743.7
+6      21212    Pack Of 72 Retrospot Cake Cases              1334       36231      388424.6
+7      23084                 Rabbit Night Light              1009       30680      327794.2
+8     85099B            Jumbo Bag Red Retrospot              2135       47363      290474.5
+9      22423           Regency Cakestand 3 Tier              2169       13033      289288.6
+10     22492             Mini Paint Set Vintage               390       26437      284870.9
+11     47566                      Party Bunting              1706       18040      282719.2
+12     22178    Victorian Glass Hanging T-Light              1062       23854      269111.3
+13     22616          Pack Of 12 London Tissues               515       25907      268681.7
+14     21977 Pack Of 60 Pink Paisley Cake Cases               875       24753      263537.6
+15     15036          Assorted Colours Silk Fan               522       23082      253367.3
+16     21915               Red Harmonica In Box               670       21874      245282.5
+17     17003                 Brocade Ring Purse               242       23053      239586.1
+18     22086     Paper Chain Kit 50'S Christmas              1170       18902      228583.4
+19     84946       Antique Silver T-Light Glass               932       18911      213142.9
+20     22469              Heart Of Wicker Small              1212       17836      209436.1
+   avg_price avg_quantity_per_transaction
+1      10.78                        38.25
+2      10.28                        99.35
+3       9.29                         0.00
+4      13.07                        14.88
+5      11.64                        24.28
+6      10.77                        26.16
+7      11.02                        29.19
+8       6.39                        21.94
+9      23.21                         5.92
+10     10.74                        67.79
+11     15.83                        10.45
+12     11.49                        22.25
+13     10.35                        48.79
+14     10.68                        27.63
+15     11.09                        44.13
+16     11.67                        32.36
+17     10.83                        94.09
+18     12.29                        15.62
+19     11.26                        19.99
+20     11.91                        14.42
+
+5.2 PRODUCT PRICE DISTRIBUTION:
+  price_range product_count transaction_count total_units total_revenue
+1     $10-$20          3575            431139     4533134   54189718.98
+2      $5-$10          2695             79085      724339    4551213.04
+3     $20-$50           604             25694       62289    1460962.10
+4   Over $100             9               136         150      57071.22
+5    $50-$100            27               296         330      21058.92
+
+6.2 DAILY TRANSACTION VOLUME:
+         Date daily_transactions daily_items daily_revenue
+1   12/9/2019                 48        1622      604502.1
+2  11/14/2019                133        3558      561052.5
+3   9/20/2019                 75        1703      548012.5
+4   10/5/2019                100        2434      515992.1
+5  10/20/2019                104        2342      469123.0
+6  11/10/2019                160        3233      443115.8
+7   8/11/2019                 81        1972      436995.2
+8    8/4/2019                 89        1818      425920.7
+9   5/12/2019                100        1949      424704.5
+10  9/13/2019                 70        2416      408521.3
+
+=== TIME SERIES ANALYSIS ===
+
+7.1 MONTHLY PERFORMANCE SUMMARY:
+   year_month transactions unique_customers unique_products total_units monthly_revenue
+1  2018-12-01         1852             1086            2709      343008         4234147
+2  2019-01-01         1327              867            2526      307515         3649506
+3  2019-02-01         1287              880            2345      280621         3299538
+4  2019-03-01         1722             1125            2440      374472         4353309
+5  2019-04-01         1455              981            2396      294819         3416109
+6  2019-05-01         1938             1178            2392      391309         4530850
+7  2019-06-01         1826             1156            2562      382392         4410422
+8  2019-07-01         1687             1093            2628      394437         4518348
+9  2019-08-01         1581             1039            2540      410020         4614244
+10 2019-09-01         2117             1363            2678      563041         6542706
+11 2019-10-01         2312             1494            2800      597841         6971408
+12 2019-11-01         3146             1787            2874      751647         7745258
+13 2019-12-01          954              722            2431      229120         1994179
+   avg_transaction_value
+1                 100.59
+2                 104.85
+3                 120.38
+4                 120.06
+5                 115.93
+6                 123.87
+7                 121.03
+8                 115.73
+9                 132.08
+10                131.47
+11                115.91
+12                 92.15
+13                 78.63
+
+7.2 YEAR OVER YEAR COMPARISON:
+  year annual_transactions annual_customers annual_revenue avg_price avg_quantity
+1 2018                1852             1086        4234147     14.14         8.15
+2 2019               21352             4586       56045877     12.54        10.07
