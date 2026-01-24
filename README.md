@@ -17,13 +17,13 @@ Total Units Sold: 5.32 million items
 
 **CUSTOMER ANALYSIS**
 
-Top 1.3% customers(VIP>R10k): 1 382 customers generate 80.9% of revenue
+-Top 1.3% customers(VIP>R10k): 1 382 customers generate 80.9% of revenue
 
-Next 2% customers(Premium): Generate 10.68% of the total revenue
+-Next 2% customers(Premium): Generate 10.68% of the total revenue
 
-Bottom 96.7% customers: Generate only 8.42% of revenue combined
+-Bottom 96.7% customers: Generate only 8.42% of revenue combined
 
-Customer 14646: Top spender at R2.1M across 74 transactions
+-Customer 14646: Top spender at R2.1M across 74 transactions
 
 -Customer 16446: Spent R501 000 in just 3 transactions
 
