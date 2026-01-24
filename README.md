@@ -1,4 +1,4 @@
-# sales_analysis_sql
+# SALES INSIGHTS AFTER DATA ANALYSIS TASKS
 **Data analysis of sales transactions to get insights and patterns**
 - A total of 536350 transactions have been made
 - Geographical spread: UK dominates with 88.3% of the total transactions
