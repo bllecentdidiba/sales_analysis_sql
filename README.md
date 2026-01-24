@@ -4,8 +4,10 @@
 - Geographical spread: UK dominates with 88.3% of the total transactions
 
 **REVENUE and SCALE INSIGHTS**
-Total Revenue: R60 280 024
+Total Revenue: R60 280 024, 
+
 Average Transaction Value: R112.39
+
 Average Price: R12.66 per item
 Average Quantity: 9.92 units per transaction
 Total Units Sold: 5.32 million items
