@@ -53,7 +53,7 @@ Total Units Sold: 5.32 million items
 
 **ANOMALIES & RED FLAGS**
 
--Negative Revenue: R-25997 from 136 Infrequent customers 
+-Negative Revenue: -R25997 from 136 Infrequent customers 
 
 -Product 23843: R501k revenue from 0 units sold
 
