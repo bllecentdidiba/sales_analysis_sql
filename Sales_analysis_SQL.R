@@ -156,13 +156,13 @@ cat("\n5.2 PRODUCT PRICE DISTRIBUTION:\n")
 q7 <- sqldf("
   SELECT 
     CASE 
-      WHEN Price < 1 THEN 'Under $1'
-      WHEN Price < 5 THEN '$1-$5'
-      WHEN Price < 10 THEN '$5-$10'
-      WHEN Price < 20 THEN '$10-$20'
-      WHEN Price < 50 THEN '$20-$50'
-      WHEN Price < 100 THEN '$50-$100'
-      ELSE 'Over $100'
+      WHEN Price < 1 THEN 'Under R1'
+      WHEN Price < 5 THEN 'R1-R5'
+      WHEN Price < 10 THEN 'R5-R10'
+      WHEN Price < 20 THEN 'R10-R20'
+      WHEN Price < 50 THEN 'R20-R50'
+      WHEN Price < 100 THEN 'R50-R100'
+      ELSE 'Over R100'
     END as price_range,
     COUNT(DISTINCT ProductNo) as product_count,
     COUNT(*) as transaction_count,
@@ -321,4 +321,5 @@ cat("\n7.2 YEAR OVER YEAR COMPARISON:\n")
 print(q10)
 
 sink()
+
 
