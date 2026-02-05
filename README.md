@@ -1,5 +1,7 @@
 # Sales Data Analysis: Key Insights & Strategic Recommendations
+
 **Summary**
+
 Analysis of over 535K transactions reveals a highly concentrated revenue model driven by a elite customer segment and a core set of low-price-point products. Significant opportunities exist in customer retention, geographic expansion, and inventory strategy.
 
 **Overview of our sales performance**
