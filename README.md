@@ -2,7 +2,7 @@
 
 **Summary**
 
-Analysis of over 535K transactions reveals a highly concentrated revenue model driven by a elite customer segment and a core set of low-price-point products. Significant opportunities exist in customer retention, geographic expansion, and inventory strategy.
+Analysis of over 535K transactions reveals a highly concentrated revenue model driven by an elite customer segment and a core set of low-price-point products. Significant opportunities exist in customer retention, geographic expansion, and inventory strategy.
 
 **Overview of our sales performance**
 
@@ -40,7 +40,7 @@ Analysis of over 535K transactions reveals a highly concentrated revenue model d
 
 *Recommendation: Implement Strategic Product Bundling within the R10-R20 range to increase the average transaction value. Explore and potentially expand the luxury (>R100) segment carefully.*
 
-**Geographical Location analysis**
+**Geographical Footprint**
 
 *The sales distribution is geographically skewed, presenting both a risk and an opportunity.*
 
