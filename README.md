@@ -2,7 +2,7 @@
 
 **Summary**
 
-Analysis of over 535K transactions reveals a highly concentrated revenue model driven by an elite customer segment and a core set of low-price-point products. Significant opportunities exist in customer retention, geographic expansion, and inventory strategy.
+Analysis of over 535K transactions reveals a highly concentrated revenue model driven by an elite customer segment and a core set of low-price-point products. Significant opportunities exist in customer retention, geographical expansion and inventory strategy.
 
 **Overview of our sales performance**
 
